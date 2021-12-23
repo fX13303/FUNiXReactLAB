@@ -1,0 +1,24 @@
+{
+  "name": "lab01_1",
+  "version": "1.0.0",
+  "description": "LAB01",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fX13303/LAB01_1.git"
+  },
+  "author": "phucddhfx13303@funix.edu.vn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fX13303/LAB01_1/issues"
+  },
+  "homepage": "https://github.com/fX13303/LAB01_1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
