@@ -27,7 +27,7 @@ function RenderComments({comments}) {
                   return(
                     <li key={comment.id}>
                       <p>{comment.comment}</p>
-                      <p>-- {comment.arthor}, {moment(comment.date).format('MMMM Do YYYY')}</p>
+                      <p>-- {comment.arthor}, {moment(comment.date).format('MMMM Do YYYY')} </p>
                     </li>
                   );
                 })}
@@ -42,7 +42,7 @@ function RenderComments({comments}) {
 
 
 const DishDetail = (props) => {
-  if (props.dish!=null)
+  if (props.dish != null)
   return (
     <div className="container">
         <div className="row">
