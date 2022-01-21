@@ -94,7 +94,7 @@ class Header extends Component {
                                 <Input type='password' id='password' name='password' innerRef={(input) => this.password = input}/>
                             </FormGroup>
                             <FormGroup check>
-                                <Label check>
+                                <Label check>   
                                     <Input type='checkbox' name='remember' innerRef={(input) => this.remember = input}/>Remember me
                                 </Label>
                             </FormGroup>
